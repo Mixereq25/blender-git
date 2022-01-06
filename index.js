@@ -37,7 +37,7 @@ client.on('messageCreate', async (message) => {
 
     if(message.content.slice(prefix.length)=="pomoc")
     {
-        message.channel.send("jak moge Ci pomóc? oto lista komend które obsługuje: .ping, .avatar, .play, .playlist, .shuffle, .skip, .stop ");
+        message.channel.send("jak moge Ci pomóc? oto lista komend które obsługuje: .ping, .avatar, .play");
     }
 
     if(message.content.slice(prefix.length)=="puść ekipe")
